@@ -7,7 +7,7 @@ City of Lafayette Bus Pass Program Levy",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Christa Newton" "Marek Newton",
+  "author": "Marek Newton",
   "license": "ISC",
   "dependencies": {
     "http": "0.0.0",
