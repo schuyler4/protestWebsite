@@ -1,16 +1,19 @@
 {
-  "name": "protestwebsite",
+  "name": "cityoflafayette-BusPassProgramLevy",
   "version": "1.0.0",
-  "description": "this is a website to protest some stuff",
+  "description": "ISSUE NO. 2C
+City of Lafayette Bus Pass Program Levy",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Marek Newton",
+  "author": "Christa Newton" "Marek Newton",
   "license": "ISC",
   "dependencies": {
     "http": "0.0.0",
     "koa": "^1.2.4",
+    "koa-pug": "^3.0.0-1",
+    "koa-router": "^5.4.0",
     "koa-static": "^2.0.0",
     "socket.io": "^1.5.0"
   }

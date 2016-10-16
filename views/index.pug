@@ -1,22 +1,27 @@
 doctype html
 html(lang="en")
 head
-  title Protest website
+  title VOTE NO ON CITY OF LAFAYETTE BALLOT  ISSUE NO. 2C
   base(href="/")
-  script(src="./js/chat.js")
   script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+  script(src="/socket.io/socket.io.js")
+  script(src="./js/chat.js")
   link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
   link(rel='stylesheet' href='./css/styles.css')
 body
   div(class="jumbotron" id="headerDiv")
     div(class="container")
-      h1(id="headerText") this is the header
+      h1(id="headerText") VOTE NO ON CITY OF LAFAYETTE BALLOT  ISSUE NO. 2C
   div(id="mainDiv" class="container")
     div(id ="textContainer")
-      h2 some heading
-      p some text
-    div(id="chatContainer")
-      div(id="sendingDiv")
-        textarea(id="chatInput")
-        button(id="submit") send
-      div(id="messagesDiv")
+      div(class="container")
+        h2 Vote No
+        p
+          embed(src="txt/VOTENO.txt" width="600" height="500")
+    div(class="container" id="chatBox")
+      h1(id="chatHeading") Chat About It
+      div(id="chatContainer")
+        div(id="sendingDiv")
+          textarea(id="chatInput")
+          button(id="submit") send
+          div(id="messageDiv")
