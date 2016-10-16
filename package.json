@@ -1,0 +1,17 @@
+{
+  "name": "protestwebsite",
+  "version": "1.0.0",
+  "description": "this is a website to protest some stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marek Newton",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "koa": "^1.2.4",
+    "koa-static": "^2.0.0",
+    "socket.io": "^1.5.0"
+  }
+}

@@ -1,0 +1,36 @@
+#chatContainer {
+  width: 40%;
+  height:600px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+#headerDiv {
+  margin-top: 10px;
+  background-color: black;
+}
+
+#headerText {
+  font-size:70px;
+  color: white;
+}
+
+#textContainer {
+  width: 50%;
+  height:600px;
+  float: left;
+}
+
+#chatInput {
+  border:2px solid black;
+  margin-top:10px;
+  width: 50%;
+  height: 20%;
+  float: right;
+  outline: none;
+  border-radius: 10px;
+}
+
+#mainDiv {
+  width: 100%;
+}
